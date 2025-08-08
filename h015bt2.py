@@ -1,0 +1,5 @@
+a, b, c = map(int, input().split())
+S = (a**2 + b**2 + c**2) * (a + b + c)
+P = (a**2 + b) / (b**2 + c)
+print(S)
+print(f"{P:.3f}")

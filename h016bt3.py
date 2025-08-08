@@ -1,0 +1,5 @@
+x, y, z, t=map(int, input().split())
+A=(x + y + t) * (x + t)
+B = ((x**2 + y)**0.5) / (z + t)
+print(A)
+print(f"{B:.3f}")
